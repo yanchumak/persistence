@@ -37,6 +37,10 @@ dependencies {
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+    testImplementation("org.testcontainers:testcontainers:1.20.6")
+    testImplementation("org.testcontainers:mysql:1.20.6")
+    testImplementation("mysql:mysql-connector-java:8.0.33")
+
     // This dependency is used by the application.
     implementation libs.guava
 }

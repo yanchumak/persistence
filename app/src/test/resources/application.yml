@@ -9,9 +9,6 @@ spring:
         type:
           descriptor:
             sql: trace
-  sql:
-    init:
-      mode: always
 
 logging:
   level:
